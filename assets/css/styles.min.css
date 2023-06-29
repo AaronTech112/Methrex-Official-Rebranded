@@ -1,1 +1,261 @@
-@font-face{font-family:ClashDisplay-Bold;src:url(../../assets/fonts/ClashDisplay-Bold.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Bold.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Bold.ttf) format('truetype');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Extralight;src:url(../../assets/fonts/ClashDisplay-Extralight.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Extralight.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Extralight.ttf) format('truetype');font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Light;src:url(../../assets/fonts/ClashDisplay-Light.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Light.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Light.ttf) format('truetype');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Medium;src:url(../../assets/fonts/ClashDisplay-Medium.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Medium.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Medium.ttf) format('truetype');font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Regular;src:url(../../assets/fonts/ClashDisplay-Regular.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Regular.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Regular.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Semibold;src:url(../../assets/fonts/ClashDisplay-Semibold.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Semibold.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Semibold.ttf) format('truetype');font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:ClashDisplay-Variable;src:url(../../assets/fonts/ClashDisplay-Variable.woff2) format('woff2'),url(../../assets/fonts/ClashDisplay-Variable.woff) format('woff'),url(../../assets/fonts/ClashDisplay-Variable.ttf) format('truetype');font-weight:200 700;font-style:normal;font-display:swap}.fit-cover{object-fit:cover}img{right:10px;display:block}.bs-icon{--bs-icon-size:.75rem;display:flex;flex-shrink:0;justify-content:center;align-items:center;font-size:var(--bs-icon-size);width:calc(var(--bs-icon-size) * 2);height:calc(var(--bs-icon-size) * 2);color:var(--bs-primary)}.bs-icon-xs{--bs-icon-size:1rem;width:calc(var(--bs-icon-size) * 1.5);height:calc(var(--bs-icon-size) * 1.5)}.bs-icon-sm{--bs-icon-size:1rem}.bs-icon-md{--bs-icon-size:1.5rem}.bs-icon-lg{--bs-icon-size:2rem}.bs-icon-xl{--bs-icon-size:2.5rem}.bs-icon.bs-icon-primary{color:var(--bs-white);background:var(--bs-primary)}.bs-icon.bs-icon-primary-light{color:var(--bs-primary);background:rgba(var(--bs-primary-rgb),.2)}.bs-icon.bs-icon-semi-white{color:var(--bs-primary);background:rgba(255,255,255,.5)}.bs-icon.bs-icon-rounded{border-radius:.5rem}.bs-icon.bs-icon-circle{border-radius:50%}p{width:100%}
+@font-face {
+    font-family: ClashDisplay-Bold;
+    src: url(../../assets/fonts/ClashDisplay-Bold.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Bold.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Extralight;
+    src: url(../../assets/fonts/ClashDisplay-Extralight.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Extralight.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Extralight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Light;
+    src: url(../../assets/fonts/ClashDisplay-Light.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Light.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Medium;
+    src: url(../../assets/fonts/ClashDisplay-Medium.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Medium.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Regular;
+    src: url(../../assets/fonts/ClashDisplay-Regular.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Regular.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Semibold;
+    src: url(../../assets/fonts/ClashDisplay-Semibold.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Semibold.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Semibold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ClashDisplay-Variable;
+    src: url(../../assets/fonts/ClashDisplay-Variable.woff2) format('woff2'), url(../../assets/fonts/ClashDisplay-Variable.woff) format('woff'), url(../../assets/fonts/ClashDisplay-Variable.ttf) format('truetype');
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap
+}
+
+.fit-cover {
+    object-fit: cover
+}
+
+img {
+    right: 10px;
+    display: block
+}
+
+.bs-icon {
+    --bs-icon-size: .75rem;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--bs-icon-size);
+    width: calc(var(--bs-icon-size) * 2);
+    height: calc(var(--bs-icon-size) * 2);
+    color: var(--bs-primary)
+}
+
+.bs-icon-xs {
+    --bs-icon-size: 1rem;
+    width: calc(var(--bs-icon-size) * 1.5);
+    height: calc(var(--bs-icon-size) * 1.5)
+}
+
+.bs-icon-sm {
+    --bs-icon-size: 1rem
+}
+
+.bs-icon-md {
+    --bs-icon-size: 1.5rem
+}
+
+.bs-icon-lg {
+    --bs-icon-size: 2rem
+}
+
+.bs-icon-xl {
+    --bs-icon-size: 2.5rem
+}
+
+.bs-icon.bs-icon-primary {
+    color: var(--bs-white);
+    background: var(--bs-primary)
+}
+
+.bs-icon.bs-icon-primary-light {
+    color: var(--bs-primary);
+    background: rgba(var(--bs-primary-rgb), .2)
+}
+
+.bs-icon.bs-icon-semi-white {
+    color: var(--bs-primary);
+    background: rgba(255, 255, 255, .5)
+}
+
+.bs-icon.bs-icon-rounded {
+    border-radius: .5rem
+}
+
+.bs-icon.bs-icon-circle {
+    border-radius: 50%
+}
+
+p {
+    width: 100%
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Muli, sans-serif;
+    background-color: #fff
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto
+}
+
+.faq {
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s
+}
+
+.faq.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .1)
+}
+
+.faq.active::after,
+.faq.active::before {
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    color: red;
+    font-size: 7rem;
+    position: absolute;
+    opacity: .2;
+    top: 20px;
+    left: 20px;
+    z-index: 0
+}
+
+.faq.active::before {
+    color: red;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg)
+}
+
+.faq-title {
+    margin: 0 35px 0 0
+}
+
+.faq-text {
+    display: none;
+    margin: 30px 0 0
+}
+
+.faq.active .faq-text {
+    display: block
+}
+
+.faq-toggle {
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px
+}
+
+.faq-toggle:focus {
+    outline: 0
+}
+
+.faq-toggle .fa-times,
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none
+}
+
+.faq.active .faq-toggle .fa-times {
+    color: #fff;
+    display: block
+}
+
+.faq.active .faq-toggle {
+    background-color: #9fa4a8
+}
+
+.form-content-container {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;align-items: center;
+    justify-content: center;
+
+    transform: translateY(-20%);
+    opacity: 0;
+    transition: .4s;
+}
+
+.form-content {
+    /* max-width: ; */
+    aspect-ratio: 16/13;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.active-window {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 10000;
+
+}
